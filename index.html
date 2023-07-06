@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classic Cars</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+  <!-- Menu -->
+  <div class="menu target dis-flex">
+    <div class="menu__line menu__line-1"></div>
+    <div class="menu__line menu__line-2"></div>
+  </div>
+  <!-- Menu -->
+
+  <!-- Navbar -->
+  <nav class="nav target">
+    <ul class="nav__list dis-flex">
+      <li class="nav__item">
+        <a href="#header" class="nav__link">Home <i class="fad fa-home-alt nav__icon"></i></a>
+      </li>
+      <li class="nav__item">
+        <a href="#popularCars" class="nav__link">Popular Cars <i class="fad fa-star nav__icon"></i></a>
+      </li>
+      <li class="nav__item">
+        <a href="#videoGallery" class="nav__link">Video Gallery <i class="fad fa-camera-movie nav__icon"></i></a>
+      </li>
+      <li class="nav__item">
+        <a href="#imageGallery" class="nav__link">Image Gallery <i class="fad fa-images nav__icon"></i></a>
+      </li>
+      <li class="nav__item">
+        <a href="#contact" class="nav__link">Contact <i class="fad fa-phone-alt nav__icon"></i></a>
+      </li>
+    </ul>
+  </nav>
+  <!-- Navbar -->
+
+  <!-- Header -->
+  <div class="wrapper">
+    <header class="header target" id="header">
+      <div class="container">
+        <div class="header__content content dis-flex">
+          <h1 class="header__title title">Classic Cars</h1>
+          <img src="images/car-section1.png" alt="car-section-1" class="header__img">
+        </div>
+      </div>
+    </header>
+  </div>
+  <!-- Header -->
+
+  <!-- Main -->
+  <main>
+    <div class="wrapper">
+      <section class="popular target" id="popularCars">
+        <div class="container">
+          <div class="popular__content content dis-flex">
+            <h2 class="popular__title title">Popular Cars</h2>
+            <div class="popular__cards dis-flex">
+              <div class="popular__card">
+                <h3 class="popular__subtitle">Car Name</h3>
+                <img src="images/car-1.jpg" alt="card-1" class="popular__img">
+                <h4 class="popular__price">$ 200,000</h4>
+                <button type="button" class="popular__btn">See More</button>
+              </div>
+              <div class="popular__card">
+                <h3 class="popular__subtitle">Car Name</h3>
+                <img src="images/car-2.jpg" alt="card-2" class="popular__img">
+                <h4 class="popular__price">$ 100,000</h4>
+                <button type="button" class="popular__btn">See More</button>
+              </div>
+              <div class="popular__card">
+                <h3 class="popular__subtitle">Car Name</h3>
+                <img src="images/car-3.jpg" alt="card-3" class="popular__img">
+                <h4 class="popular__price">$ 150,000</h4>
+                <button type="button" class="popular__btn">See More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="wrapper">
+      <section class="video target" id="videoGallery">
+        <div class="container">
+          <div class="video__content content dis-flex">
+            <h2 class="video__title title">Video Gallery</h2>
+            <div class="video__cards dis-flex">
+              <div class="video__card">
+                <video src="video/car-video-1.mp4" muted loop class="video__mp4"></video>
+              </div>
+              <div class="video__card">
+                <video src="video/car-video-2.mp4" muted loop class="video__mp4"></video>
+              </div>
+              <div class="video__card">
+                <video src="video/car-video-3.mp4" muted loop class="video__mp4"></video>
+              </div>
+            </div>
+            <div class="video__cards dis-flex">
+              <div class="video__card">
+                <video src="video/car-video-4.mp4" muted loop class="video__mp4"></video>
+              </div>
+              <div class="video__card">
+                <video src="video/car-video-5.mp4" muted loop class="video__mp4"></video>
+              </div>
+              <div class="video__card">
+                <video src="video/car-video-6.mp4" muted loop class="video__mp4"></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="wrapper">
+      <section class="gallery target" id="imageGallery">
+        <div class="container">
+          <div class="gallery__content content dis-flex">
+            <h2 class="gallery__title title">Image Gallery</h2>
+            <div class="gallery__cards dis-flex">
+              <div class="gallery__shelf"></div>
+              <div class="gallery__card gallery__card-1">
+                <img src="images/gallery-car-1.jpg" alt="gallery-car-1" class="gallery__img">
+              </div>
+              <div class="gallery__card gallery__card-2">
+                <img src="images/gallery-car-2.jpg" alt="gallery-car-2" class="gallery__img">
+              </div>
+              <div class="gallery__card gallery__card-3">
+                <img src="images/gallery-car-3.jpg" alt="gallery-car-3" class="gallery__img">
+              </div>
+            </div>
+            <div class="gallery__cards dis-flex">
+              <div class="gallery__shelf"></div>
+              <div class="gallery__card gallery__card-1">
+                <img src="images/gallery-car-4.jpg" alt="gallery-car-4" class="gallery__img">
+              </div>
+              <div class="gallery__card gallery__card-2">
+                <img src="images/gallery-car-5.jpg" alt="gallery-car-5" class="gallery__img">
+              </div>
+              <div class="gallery__card gallery__card-3">
+                <img src="images/gallery-car-6.jpg" alt="gallery-car-6" class="gallery__img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <!-- Main -->
+
+  <!-- Footer -->
+  <div class="wrapper">
+    <footer class="footer target" id="contact">
+      <div class="container">
+        <div class="footer__content content dis-flex">
+          <h2 class="footer__title title">Contact Us</h2>
+          <form class="footer__form dis-flex">
+            <input type="text" class="footer__input" placeholder="Your Full Name">
+            <input type="email" class="footer__input" placeholder="Your E-mail">
+            <textarea placeholder="Enter Message" class="footer__textarea"></textarea>
+            <input type="submit" value="Submit" class="footer__btn">
+          </form>
+          <p class="footer__txt">Copyright &copy; Sobirjonov0922. All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- Footer -->
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

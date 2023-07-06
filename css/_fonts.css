@@ -1,0 +1,33 @@
+/* JosefinSans */
+@font-face {
+  font-family: 'JosefinSans';
+  src: url(../fonts/JosefinSans/JosefinSans-Regular.ttf);
+  font-weight: 400; /* Regular */
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url(../fonts/JosefinSans/JosefinSans-Medium.ttf);
+  font-weight: 500; /* Medium */
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url(../fonts/JosefinSans/JosefinSans-SemiBold.ttf);
+  font-weight: 600; /* SemiBold */
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url(../fonts/JosefinSans/JosefinSans-Bold.ttf);
+  font-weight: 700; /* Bold */
+}
+/* JosefinSans */
+
+/* SpecialElite */
+@font-face {
+  font-family: 'SpecialElite';
+  src: url(../fonts/SpecialElite/SpecialElite-Regular.ttf);
+  font-weight: 400; /* Regular */
+}
+/* SpecialElite */
